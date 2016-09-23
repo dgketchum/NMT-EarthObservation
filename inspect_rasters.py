@@ -22,7 +22,7 @@ dgketchum 9 Sept 2016
 """
 
 import os
-from recharge.dynamic_raster_finder import get_penman, get_prism, get_ndvi, get_landsat
+from recharge.dynamic_raster_finder import get_penman, get_prism, get_ndvi, get_landsat, get_other_suff
 from dateutil import rrule
 from datetime import datetime
 from numpy import where, zeros
