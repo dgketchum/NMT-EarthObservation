@@ -29,7 +29,8 @@ from datetime import datetime
 def landsat_analysis(period):
 
     for day in rrule.rrule(rrule.DAILY, dtstart=period[0], until=period[1]):
-        # find good landsat images
+        # find good landsat images, Gabe edit, changed configureation ssh from ___ to "Native"
+
         pass
 
 if __name__ == '__main__':
