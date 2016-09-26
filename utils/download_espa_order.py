@@ -17,7 +17,7 @@ import argparse
 import shutil
 import os
 import time
-import random# maybe my pycharm env was causing a conflict? Set to 2.78 ##
+import random# how bout now?!?!?!
 
 
 class SceneFeed(object):
