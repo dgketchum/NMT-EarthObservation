@@ -10,7 +10,7 @@ Requires: Python feedparser and standard Python installation.
 
 Version: 1.0
 """
-
+# is this working. In project structure I changed the root to "source"
 import feedparser
 import urllib2
 import argparse
